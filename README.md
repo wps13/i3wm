@@ -9,3 +9,9 @@ Configuration files for i3wm.
 [i3blocks](https://github.com/vivien/i3blocks)
 
 [i3lock](https://github.com/i3/i3lock)
+
+scrot
+
+### Optional Packages:
+
+pavucontrol
