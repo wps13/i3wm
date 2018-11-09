@@ -7,6 +7,7 @@ Configuration files for i3wm.
 [Light](https://github.com/haikarainen/light)
 
 Installation Process:
+
     sudo apt install dh-autoreconf
     Clone the Repository and open the folder
     ./autogen.sh && ./configure && make && sudo make install
