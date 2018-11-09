@@ -6,6 +6,12 @@ Configuration files for i3wm.
 
 [Light](https://github.com/haikarainen/light)
 
+Installation Process:
+
+    sudo apt install dh-autoreconf
+    Clone the Repository and open the folder
+    ./autogen.sh && ./configure && make && sudo make install
+    
 i3blocks
 
     sudo apt install i3blocks 
@@ -24,4 +30,8 @@ pavucontrol
 
     sudo apt install pavucontrol
 
-Place the files in the ~/.config
+Place the files in the following paths:
+
+    config -> ~/.config/i3/config
+    
+    i3blocks.conf -> ~/.i3blocks.conf
