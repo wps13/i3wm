@@ -24,6 +24,10 @@ scrot
 
     sudo apt install scrot
 
+feh
+
+   sudo apt install feh
+
 ### Optional Packages:
 
 pavucontrol
