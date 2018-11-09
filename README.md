@@ -25,5 +25,7 @@ pavucontrol
     sudo apt install pavucontrol
 
 Place the files in the following paths:
+
     config -> ~/.config/i3/config
+    
     i3blocks.conf -> ~/.i3blocks.conf
