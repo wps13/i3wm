@@ -179,13 +179,15 @@ bar {
 	status_command i3blocks
 }
 
-exec --no-startup-id nm-applet #wifi symbol
+#exec --no-startup-id nm-applet #wifi symbol
 
 #background image in lockscreen
-bindsym $mod+x exec "i3lock --image=/home/willane/Pictures/lock.png"
+bindsym $mod+x exec "i3lock --image=~/Pictures/hack2.png"
 
 # Spotify related key bindings
 bindsym XF86AudioPlay exec "dbus-send --print-reply --dest=org.mpris.MediaPlayer2.spotify /org/mpris/MediaPlayer2 org.mpris.MediaPlayer2.Player.PlayPause"
 bindsym XF86AudioStop exec "dbus-send --print-reply --dest=org.mpris.MediaPlayer2.spotify /org/mpris/MediaPlayer2 org.mpris.MediaPlayer2.Player.Stop"
 bindsym XF86AudioPrev exec "dbus-send --print-reply --dest=org.mpris.MediaPlayer2.spotify /org/mpris/MediaPlayer2 org.mpris.MediaPlayer2.Player.Previous"
 bindsym XF86AudioNext exec "dbus-send --print-reply --dest=org.mpris.MediaPlayer2.spotify /org/mpris/MediaPlayer2 org.mpris.MediaPlayer2.Player.Next"
+
+exec --no-startup-id feh --bg-scale ~/Pictures/dc.png
