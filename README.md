@@ -42,13 +42,13 @@ Place the files in the following paths:
     
 ### Touchpad Configuration
 
-## Place the file in the path
+Place the file in the path
     
     /etc/X11/Xsession.d
  
-## Enabling Tapping  
+Enabling Tapping  
        
-# In the terminal:
+In the terminal:
 
 Search for the device id:
 
