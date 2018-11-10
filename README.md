@@ -39,3 +39,29 @@ Place the files in the following paths:
     config -> ~/.config/i3/config
     
     i3blocks.conf -> ~/.i3blocks.conf
+    
+### Touchpad Configuration
+
+## Place the file in the path
+    
+    /etc/X11/Xsession.d
+ 
+## Enabling Tapping  
+       
+# In the terminal:
+
+Search for the device id:
+
+    xinput
+
+Search for some Tapping enabled related property (Ex.: libinput Tapping Enabled)
+
+    xinput list-props id
+    
+ Use the property id to change its value to enabled(1)
+    
+    xinput set-prop deviceid propertyid 1 
+   
+ Place the command in the i3 config file to save permanently the config
+    
+    exec xinput set-prop deviceid propertyid 1
